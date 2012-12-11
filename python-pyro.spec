@@ -38,3 +38,27 @@ install -m 0755 bin/* %{buildroot}%_bindir
 %doc docs/* README.txt
 %_bindir/*
 %py_puresitedir/*
+
+
+%changelog
+* Sat Jan 29 2011 Guillaume Rousse <guillomovitch@mandriva.org> 3.10-3mdv2011.0
++ Revision: 633951
+- rebuild for normalized python dependencies
+
+* Sat Nov 06 2010 Funda Wang <fwang@mandriva.org> 3.10-2mdv2011.0
++ Revision: 594000
+- rebuild for py2.7
+
+* Mon Dec 21 2009 Lev Givon <lev@mandriva.org> 3.10-1mdv2010.1
++ Revision: 480711
+- Update to 3.10.
+
+* Sun Aug 23 2009 Lev Givon <lev@mandriva.org> 3.9.1-1mdv2010.0
++ Revision: 419984
+- Update to 3.9.1.
+
+* Mon Jan 12 2009 Funda Wang <fwang@mandriva.org> 3.8.1-1mdv2009.1
++ Revision: 328584
+- import python-pyro
+
+
