@@ -2,7 +2,7 @@ Name:           python-pyro
 URL:            http://pyro.sourceforge.net/
 Summary:        PYthon Remote Objects
 Version:        3.10
-Release:        %mkrel 3
+Release:        4
 License:        MIT
 Group:          Development/Python
 Source:         http://downloads.sourceforge.net/pyro/Pyro-%{version}.tar.gz
