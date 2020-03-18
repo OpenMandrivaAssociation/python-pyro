@@ -11,6 +11,7 @@ BuildArch:	noarch
 BuildRequires:  python-sphinx_rtd_theme
 BuildRequires:	python-sphinx
 %py_requires -d
+Requires:	python
 
 %description
 Pyro provides an object-oriented form of RPC. You can use Pyro within a
