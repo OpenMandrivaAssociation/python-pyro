@@ -1,12 +1,11 @@
 Name:           python-pyro
-URL:            http://pyro.sourceforge.net/
+URL:            https://pypi.org/project/Pyro4/
 Summary:        PYthon Remote Objects
-Version:        4.79
+Version:        4.82
 Release:        1
 License:        MIT
 Group:          Development/Python
-Source:         http://downloads.sourceforge.net/pyro/Pyro4-%{version}.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-${release}-root
+Source:         https://files.pythonhosted.org/packages/source/P/Pyro4/Pyro4-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:  python-sphinx_rtd_theme
 BuildRequires:	python-sphinx
@@ -41,9 +40,6 @@ install -m 0644 build/sphinx/html/objects.inv %{buildroot}%{_docdir}/%{name}/
 
 %files
 %defattr(-,root,root)
-%doc  README.md
 %_bindir/*
 %{_docdir}/*
 %py_puresitedir/*
-
-
