@@ -2,7 +2,7 @@ Name:           python-pyro
 URL:            https://pypi.org/project/Pyro4/
 Summary:        PYthon Remote Objects
 Version:        4.82
-Release:        2
+Release:        3
 License:        MIT
 Group:          Development/Python
 Source:         https://files.pythonhosted.org/packages/source/P/Pyro4/Pyro4-%{version}.tar.gz
