@@ -7,6 +7,7 @@ License:        MIT
 Group:          Development/Python
 Source:         https://files.pythonhosted.org/packages/source/P/Pyro4/Pyro4-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:  python-sphinx_rtd_theme
 BuildRequires:	python-sphinx
 %py_requires -d
